@@ -1,0 +1,614 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://cor.esipfed.org/ont/earthcube/swo#"
+     xml:base="http://cor.esipfed.org/ont/earthcube/swo"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:owl2="owl:"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rdfs1="rdfs:"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://cor.esipfed.org/ont/earthcube/swo">
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date xml:lang="en">2019-03-06T00:50:17Z</oboInOwl:creation_date>
+        <rdfs:comment xml:lang="en">This mini-ontology contains instances for each version of the licenses that are commonly used in software projects, particularly open source software projects.</rdfs:comment>
+        <rdfs:label xml:lang="en">Software Licenses Ontology</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/relation -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/relation"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#SubsetProperty -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#auto-generated-by -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#consider -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#consider"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#date -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#default-namespace -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#default-namespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasSynonymType -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasSynonymType"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#is_class_level -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_class_level"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#is_inferred -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_inferred"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#is_metadata_tag -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_metadata_tag"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#saved-by -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#saved-by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#shorthand -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand"/>
+    
+
+
+    <!-- owl:deprecated -->
+
+
+    <owl:AnnotationProperty rdf:about="owl:deprecated"/>
+    
+
+
+    <!-- rdfs:comment -->
+
+
+    <owl:AnnotationProperty rdf:about="rdfs:comment"/>
+    
+
+
+    <!-- rdfs:label -->
+
+
+    <owl:AnnotationProperty rdf:about="rdfs:label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://cor.esipfed.org/ont/SWL_0000012 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/SWL_0000012">
+        <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/LicenseDocument"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T20:03:34Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Software Licenses</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/SWL_0000013 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/SWL_0000013">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/SWL_0000012"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T20:04:15Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Apache</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/SWL_0000015 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/SWL_0000015">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/SWL_0000012"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T23:17:00Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">BSD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/SWL_0000016 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/SWL_0000016">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/SWL_0000012"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T23:17:44Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">GNU</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/SWL_0000017 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/SWL_0000017">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/SWL_0000016"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T23:18:06Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">GNU General Public License (GPL)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/SWL_0000018 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/SWL_0000018">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/SWL_0000016"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T23:21:17Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">GNU Lesser General Public License (LGPL)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/dc/terms/LicenseDocument -->
+
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/LicenseDocument">
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T20:02:20Z</oboInOwl:creation_date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.apache.org/licenses/LICENSE-1.0 -->
+
+
+    <owl:Class rdf:about="http://www.apache.org/licenses/LICENSE-1.0">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/SWL_0000013"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T22:20:45Z</oboInOwl:creation_date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.apache.org/licenses/LICENSE-1.1 -->
+
+
+    <owl:Class rdf:about="http://www.apache.org/licenses/LICENSE-1.1">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/SWL_0000013"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T22:21:22Z</oboInOwl:creation_date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.apache.org/licenses/LICENSE-2.0 -->
+
+
+    <owl:Class rdf:about="http://www.apache.org/licenses/LICENSE-2.0">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/SWL_0000013"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T22:22:03Z</oboInOwl:creation_date>
+    </owl:Class>
+    
+
+
+    <!-- https://opensource.org/licenses/BSD-2-Clause -->
+
+
+    <owl:Class rdf:about="https://opensource.org/licenses/BSD-2-Clause">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/SWL_0000015"/>
+        <rdfs:label xml:lang="en">The 2-Clause BSD License</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://opensource.org/licenses/BSD-3-Clause -->
+
+
+    <owl:Class rdf:about="https://opensource.org/licenses/BSD-3-Clause">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/SWL_0000015"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T20:49:07Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">The 3-Clause BSD License</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://opensource.org/licenses/CDDL-1.0 -->
+
+
+    <owl:Class rdf:about="https://opensource.org/licenses/CDDL-1.0">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/SWL_0000012"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T23:38:30Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Common Development and Distribution License 1.0</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://opensource.org/licenses/EPL-2.0 -->
+
+
+    <owl:Class rdf:about="https://opensource.org/licenses/EPL-2.0">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/SWL_0000012"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T23:39:27Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Eclipse Public License version 2.0</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://opensource.org/licenses/MIT -->
+
+
+    <owl:Class rdf:about="https://opensource.org/licenses/MIT">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/SWL_0000012"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T23:35:48Z</oboInOwl:creation_date>
+    </owl:Class>
+    
+
+
+    <!-- https://opensource.org/licenses/MPL-2.0 -->
+
+
+    <owl:Class rdf:about="https://opensource.org/licenses/MPL-2.0">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/SWL_0000012"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T23:37:34Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Mozilla Public License 2.0 (MPL-2.0)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.gnu.org/licenses/agpl-3.0.html -->
+
+
+    <owl:Class rdf:about="https://www.gnu.org/licenses/agpl-3.0.html">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/SWL_0000016"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T23:21:35Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">GNU Affero General Public License (AGPL)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://www.gnu.org/licenses/gpl-3.0.html -->
+
+
+    <owl:NamedIndividual rdf:about="https://www.gnu.org/licenses/gpl-3.0.html">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/SWL_0000017"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T23:24:35Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">GNU General Public License, version 3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.gnu.org/licenses/licenses/lgpl-3.0.html -->
+
+
+    <owl:NamedIndividual rdf:about="https://www.gnu.org/licenses/licenses/lgpl-3.0.html">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/SWL_0000018"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T23:30:10Z</oboInOwl:creation_date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.gnu.org/licenses/old-licenses/gpl-1.0.html -->
+
+
+    <owl:NamedIndividual rdf:about="https://www.gnu.org/licenses/old-licenses/gpl-1.0.html">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/SWL_0000017"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T23:27:48Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">GNU General Public License, version 1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.gnu.org/licenses/old-licenses/gpl-2.0.html -->
+
+
+    <owl:NamedIndividual rdf:about="https://www.gnu.org/licenses/old-licenses/gpl-2.0.html">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/SWL_0000017"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T23:27:12Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">GNU General Public License, version 2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html -->
+
+
+    <owl:NamedIndividual rdf:about="https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">
+        <rdf:type rdf:resource="http://cor.esipfed.org/ont/SWL_0000018"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T23:31:33Z</oboInOwl:creation_date>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="http://creativecommons.org/ns#Attribution">
+        <rdfs:comment xml:lang="en-us">credit be given to
+		    copyright holder and/or author</rdfs:comment>
+        <rdfs:label xml:lang="en-us">Attribution</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://creativecommons.org/ns#CommercialUse">
+        <rdfs:comment xml:lang="en-us">exercising rights for
+		    commercial purposes</rdfs:comment>
+        <rdfs:label xml:lang="en-us">Commercial Use</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://creativecommons.org/ns#Copyleft">
+        <rdfs:comment xml:lang="en-us">derivative and
+		    combined works must be licensed under specified
+		    terms, similar to those on the original
+		    work</rdfs:comment>
+        <rdfs:label xml:lang="en-us">Copyleft</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://creativecommons.org/ns#DerivativeWorks">
+        <rdfs:comment xml:lang="en-us">distribution of
+		    derivative works</rdfs:comment>
+        <rdfs:label xml:lang="en-us">Derivative Works</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://creativecommons.org/ns#Distribution">
+        <rdfs:comment xml:lang="en-us">distribution, public
+		    display, and publicly performance</rdfs:comment>
+        <rdfs:label xml:lang="en-us">Distribution</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://creativecommons.org/ns#HighIncomeNationUse">
+        <rdfs:comment xml:lang="en-us">use in a
+		    non-developing country</rdfs:comment>
+        <rdfs:label xml:lang="en-us">High Income Nation Use</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://creativecommons.org/ns#LesserCopyleft">
+        <rdfs:comment xml:lang="en-us">derivative works must
+		    be licensed under specified terms, with at least
+		    the same conditions as the original work;
+		    combinations with the work may be licensed under
+		    different terms</rdfs:comment>
+        <rdfs:label xml:lang="en-us">Lesser Copyleft</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://creativecommons.org/ns#Notice">
+        <rdfs:comment xml:lang="en-us">copyright and license
+		    notices be kept intact</rdfs:comment>
+        <rdfs:label xml:lang="en-us">Notice</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://creativecommons.org/ns#Reproduction">
+        <rdfs:comment xml:lang="en-us">making multiple
+		    copies</rdfs:comment>
+        <rdfs:label xml:lang="en-us">Reproduction</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://creativecommons.org/ns#ShareAlike">
+        <rdfs:comment xml:lang="en-us">derivative works be
+		    licensed under the same terms or compatible terms
+		    as the original work</rdfs:comment>
+        <rdfs:label xml:lang="en-us">Share Alike</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://creativecommons.org/ns#Sharing">
+        <rdfs:comment xml:lang="en-us">permits commercial
+		    derivatives, but only non-commercial
+		    distribution</rdfs:comment>
+        <rdfs:label xml:lang="en-us">Sharing</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://creativecommons.org/ns#SourceCode">
+        <rdfs:comment xml:lang="en-us">source code (the
+		    preferred form for making modifications) must be
+		    provided when exercising some rights granted by
+		    the license.</rdfs:comment>
+        <rdfs:label xml:lang="en-us">Source Code</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/ -->
+
+
