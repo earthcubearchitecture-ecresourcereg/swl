@@ -1,0 +1,305 @@
+@base          <http://cor.esipfed.org/ont/earthcube/swl> .
+@prefix :      <http://cor.esipfed.org/ont/earthcube/swl/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+oboInOwl:is_class_level
+        a       owl:AnnotationProperty .
+
+oboInOwl:creation_date
+        a       owl:AnnotationProperty .
+
+oboInOwl:created_by  a  owl:AnnotationProperty .
+
+<http://cor.esipfed.org/ont/SWL_0000013>
+        a                       owl:Class ;
+        rdfs:label              "Apache"@en ;
+        rdfs:subClassOf         <http://cor.esipfed.org/ont/SWL_0000012> ;
+        oboInOwl:created_by     <http://orcid.org/0000-0003-4808-4736> ;
+        oboInOwl:creation_date  "2019-07-03T20:04:15Z"^^xsd:dateTime .
+
+oboInOwl:hasSynonymType
+        a       owl:AnnotationProperty .
+
+oboInOwl:hasNarrowSynonym
+        a       owl:AnnotationProperty .
+
+<owl:deprecated>  a  owl:AnnotationProperty .
+
+oboInOwl:hasRelatedSynonym
+        a       owl:AnnotationProperty .
+
+<https://opensource.org/licenses/BSD-3-Clause>
+        a                       owl:Class ;
+        rdfs:label              "The 3-Clause BSD License"@en ;
+        rdfs:subClassOf         <http://cor.esipfed.org/ont/SWL_0000015> ;
+        oboInOwl:created_by     <http://orcid.org/0000-0003-4808-4736> ;
+        oboInOwl:creation_date  "2019-07-03T20:49:07Z"^^xsd:dateTime .
+
+<http://creativecommons.org/ns#CommercialUse>
+        rdfs:comment  "exercising rights for\n\t\t    commercial purposes"@en-us ;
+        rdfs:label    "Commercial Use"@en-us .
+
+<http://purl.org/dc/terms/license>
+        a       owl:AnnotationProperty .
+
+<http://cor.esipfed.org/ont/SWL_0000018>
+        a                       owl:Class ;
+        rdfs:label              "GNU Lesser General Public License (LGPL)"@en ;
+        rdfs:subClassOf         <http://cor.esipfed.org/ont/SWL_0000016> ;
+        oboInOwl:created_by     <http://orcid.org/0000-0003-4808-4736> ;
+        oboInOwl:creation_date  "2019-07-03T23:21:17Z"^^xsd:dateTime .
+
+<http://creativecommons.org/ns#Reproduction>
+        rdfs:comment  "making multiple\n\t\t    copies"@en-us ;
+        rdfs:label    "Reproduction"@en-us .
+
+<https://www.gnu.org/licenses/old-licenses/gpl-2.0.html>
+        a                       <http://cor.esipfed.org/ont/SWL_0000017> , owl:NamedIndividual ;
+        rdfs:label              "GNU General Public License, version 2"@en ;
+        oboInOwl:created_by     <http://orcid.org/0000-0003-4808-4736> ;
+        oboInOwl:creation_date  "2019-07-03T23:27:12Z"^^xsd:dateTime .
+
+<http://cor.esipfed.org/ont/SWL_0000012>
+        a                       owl:Class ;
+        rdfs:label              "Software Licenses"@en ;
+        rdfs:subClassOf         <http://purl.org/dc/terms/LicenseDocument> ;
+        oboInOwl:created_by     <http://orcid.org/0000-0003-4808-4736> ;
+        oboInOwl:creation_date  "2019-07-03T20:03:34Z"^^xsd:dateTime .
+
+oboInOwl:SubsetProperty
+        a       owl:AnnotationProperty .
+
+oboInOwl:date  a  owl:AnnotationProperty .
+
+<http://purl.org/dc/terms/LicenseDocument>
+        a                       owl:Class ;
+        oboInOwl:created_by     <http://orcid.org/0000-0003-4808-4736> ;
+        oboInOwl:creation_date  "2019-07-03T20:02:20Z"^^xsd:dateTime .
+
+<https://www.gnu.org/licenses/gpl-3.0.html>
+        a                       <http://cor.esipfed.org/ont/SWL_0000017> , owl:NamedIndividual ;
+        rdfs:label              "GNU General Public License, version 3"@en ;
+        oboInOwl:created_by     <http://orcid.org/0000-0003-4808-4736> ;
+        oboInOwl:creation_date  "2019-07-03T23:24:35Z"^^xsd:dateTime .
+
+oboInOwl:hasOBOFormatVersion
+        a       owl:AnnotationProperty .
+
+<http://purl.org/dc/terms/relation>
+        a       owl:AnnotationProperty .
+
+<http://cor.esipfed.org/ont/SWL_0000017>
+        a                       owl:Class ;
+        rdfs:label              "GNU General Public License (GPL)"@en ;
+        rdfs:subClassOf         <http://cor.esipfed.org/ont/SWL_0000016> ;
+        oboInOwl:created_by     <http://orcid.org/0000-0003-4808-4736> ;
+        oboInOwl:creation_date  "2019-07-03T23:18:06Z"^^xsd:dateTime .
+
+<http://creativecommons.org/ns#Attribution>
+        rdfs:comment  "credit be given to\n\t\t    copyright holder and/or author"@en-us ;
+        rdfs:label    "Attribution"@en-us .
+
+oboInOwl:id  a  owl:AnnotationProperty .
+
+oboInOwl:auto-generated-by
+        a       owl:AnnotationProperty .
+
+<http://purl.org/dc/elements/1.1/creator>
+        a       owl:AnnotationProperty .
+
+<https://www.gnu.org/licenses/licenses/lgpl-3.0.html>
+        a                       <http://cor.esipfed.org/ont/SWL_0000018> , owl:NamedIndividual ;
+        oboInOwl:created_by     <http://orcid.org/0000-0003-4808-4736> ;
+        oboInOwl:creation_date  "2019-07-03T23:30:10Z"^^xsd:dateTime .
+
+oboInOwl:hasOBONamespace
+        a       owl:AnnotationProperty .
+
+oboInOwl:inSubset  a  owl:AnnotationProperty .
+
+oboInOwl:is_inferred  a  owl:AnnotationProperty .
+
+oboInOwl:consider  a  owl:AnnotationProperty .
+
+<http://creativecommons.org/ns#HighIncomeNationUse>
+        rdfs:comment  "use in a\n\t\t    non-developing country"@en-us ;
+        rdfs:label    "High Income Nation Use"@en-us .
+
+<https://opensource.org/licenses/MPL-2.0>
+        a                       owl:Class ;
+        rdfs:label              "Mozilla Public License 2.0 (MPL-2.0)"@en ;
+        rdfs:subClassOf         <http://cor.esipfed.org/ont/SWL_0000012> ;
+        oboInOwl:created_by     <http://orcid.org/0000-0003-4808-4736> ;
+        oboInOwl:creation_date  "2019-07-03T23:37:34Z"^^xsd:dateTime .
+
+<http://creativecommons.org/ns#DerivativeWorks>
+        rdfs:comment  "distribution of\n\t\t    derivative works"@en-us ;
+        rdfs:label    "Derivative Works"@en-us .
+
+oboInOwl:default-namespace
+        a       owl:AnnotationProperty .
+
+<https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html>
+        a                       <http://cor.esipfed.org/ont/SWL_0000018> , owl:NamedIndividual ;
+        oboInOwl:created_by     <http://orcid.org/0000-0003-4808-4736> ;
+        oboInOwl:creation_date  "2019-07-03T23:31:33Z"^^xsd:dateTime .
+
+<http://cor.esipfed.org/ont/SWL_0000016>
+        a                       owl:Class ;
+        rdfs:label              "GNU"@en ;
+        rdfs:subClassOf         <http://cor.esipfed.org/ont/SWL_0000012> ;
+        oboInOwl:created_by     <http://orcid.org/0000-0003-4808-4736> ;
+        oboInOwl:creation_date  "2019-07-03T23:17:44Z"^^xsd:dateTime .
+
+oboInOwl:hasExactSynonym
+        a       owl:AnnotationProperty .
+
+oboInOwl:saved-by  a  owl:AnnotationProperty .
+
+<>      a                       owl:Ontology ;
+        rdfs:comment            "This mini-ontology contains instances for each version of the licenses that are commonly used in software projects, particularly open source software projects." ;
+        rdfs:label              "Software Licenses Ontology" ;
+        <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contact>
+                "Steve Richards" ;
+        <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contactRole>
+                "Content Manager" ;
+        <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditCitation>
+                "Duerr, R., 2019, \"Software Licenses Ontology\", ESIP Community Ontology Repository, available at http://cor.esipfed.org/ont/earthcube/swl" ;
+        <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditRequired>
+                "yes" ;
+        <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/origVocManager>
+                "None" ;
+        <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/origVocVersionId>
+                "0.9.1" ;
+        <http://omv.ontoware.org/2005/05/ontology#description>
+                "This mini-ontology contains instances for each version of the licenses that are commonly used in software projects, particularly open source software projects." ;
+        <http://omv.ontoware.org/2005/05/ontology#documentation>
+                <https://earthcubearchitecture-ecresourcereg.github.io/swl/index-en.html> ;
+        <http://omv.ontoware.org/2005/05/ontology#hasContributor>
+                "Ruth Duerr" ;
+        <http://omv.ontoware.org/2005/05/ontology#hasCreator>
+                "Ruth Duerr" ;
+        <http://omv.ontoware.org/2005/05/ontology#keywords>
+                "Software" ;
+        <http://omv.ontoware.org/2005/05/ontology#name>
+                "Software Licenses Ontology" ;
+        oboInOwl:created_by     <https://orcid.org/0000-0003-4808-4736> ;
+        oboInOwl:creation_date  "2019-03-06T00:50:17Z" .
+
+oboInOwl:hasDbXref  a  owl:AnnotationProperty .
+
+<https://opensource.org/licenses/MIT>
+        a                       owl:Class ;
+        rdfs:subClassOf         <http://cor.esipfed.org/ont/SWL_0000012> ;
+        oboInOwl:created_by     <http://orcid.org/0000-0003-4808-4736> ;
+        oboInOwl:creation_date  "2019-07-03T23:35:48Z"^^xsd:dateTime .
+
+<http://www.apache.org/licenses/LICENSE-1.1>
+        a                       owl:Class ;
+        rdfs:subClassOf         <http://cor.esipfed.org/ont/SWL_0000013> ;
+        oboInOwl:created_by     <http://orcid.org/0000-0003-4808-4736> ;
+        oboInOwl:creation_date  "2019-07-03T22:21:22Z"^^xsd:dateTime .
+
+<http://creativecommons.org/ns#LesserCopyleft>
+        rdfs:comment  "derivative works must\n\t\t    be licensed under specified terms, with at least\n\t\t    the same conditions as the original work;\n\t\t    combinations with the work may be licensed under\n\t\t    different terms"@en-us ;
+        rdfs:label    "Lesser Copyleft"@en-us .
+
+oboInOwl:shorthand  a  owl:AnnotationProperty .
+
+<http://creativecommons.org/ns#Distribution>
+        rdfs:comment  "distribution, public\n\t\t    display, and publicly performance"@en-us ;
+        rdfs:label    "Distribution"@en-us .
+
+<https://opensource.org/licenses/CDDL-1.0>
+        a                       owl:Class ;
+        rdfs:label              "Common Development and Distribution License 1.0"@en ;
+        rdfs:subClassOf         <http://cor.esipfed.org/ont/SWL_0000012> ;
+        oboInOwl:created_by     <http://orcid.org/0000-0003-4808-4736> ;
+        oboInOwl:creation_date  "2019-07-03T23:38:30Z"^^xsd:dateTime .
+
+<http://cor.esipfed.org/ont/SWL_0000015>
+        a                       owl:Class ;
+        rdfs:label              "BSD"@en ;
+        rdfs:subClassOf         <http://cor.esipfed.org/ont/SWL_0000012> ;
+        oboInOwl:created_by     <http://orcid.org/0000-0003-4808-4736> ;
+        oboInOwl:creation_date  "2019-07-03T23:17:00Z"^^xsd:dateTime .
+
+<https://opensource.org/licenses/EPL-2.0>
+        a                       owl:Class ;
+        rdfs:label              "Eclipse Public License version 2.0"@en ;
+        rdfs:subClassOf         <http://cor.esipfed.org/ont/SWL_0000012> ;
+        oboInOwl:created_by     <http://orcid.org/0000-0003-4808-4736> ;
+        oboInOwl:creation_date  "2019-07-03T23:39:27Z"^^xsd:dateTime .
+
+<http://creativecommons.org/ns#Sharing>
+        rdfs:comment  "permits commercial\n\t\t    derivatives, but only non-commercial\n\t\t    distribution"@en-us ;
+        rdfs:label    "Sharing"@en-us .
+
+oboInOwl:hasBroadSynonym
+        a       owl:AnnotationProperty .
+
+<http://www.apache.org/licenses/LICENSE-2.0>
+        a                       owl:Class ;
+        rdfs:subClassOf         <http://cor.esipfed.org/ont/SWL_0000013> ;
+        oboInOwl:created_by     <http://orcid.org/0000-0003-4808-4736> ;
+        oboInOwl:creation_date  "2019-07-03T22:22:03Z"^^xsd:dateTime .
+
+<http://purl.org/dc/elements/1.1/date>
+        a       owl:AnnotationProperty .
+
+<http://www.apache.org/licenses/LICENSE-1.0>
+        a                       owl:Class ;
+        rdfs:subClassOf         <http://cor.esipfed.org/ont/SWL_0000013> ;
+        oboInOwl:created_by     <http://orcid.org/0000-0003-4808-4736> ;
+        oboInOwl:creation_date  "2019-07-03T22:20:45Z"^^xsd:dateTime .
+
+<http://creativecommons.org/ns#ShareAlike>
+        rdfs:comment  "derivative works be\n\t\t    licensed under the same terms or compatible terms\n\t\t    as the original work"@en-us ;
+        rdfs:label    "Share Alike"@en-us .
+
+<http://creativecommons.org/ns#Copyleft>
+        rdfs:comment  "derivative and\n\t\t    combined works must be licensed under specified\n\t\t    terms, similar to those on the original\n\t\t    work"@en-us ;
+        rdfs:label    "Copyleft"@en-us .
+
+<rdfs:label>  a  owl:AnnotationProperty .
+
+<https://www.gnu.org/licenses/agpl-3.0.html>
+        a                       owl:Class ;
+        rdfs:label              "GNU Affero General Public License (AGPL)"@en ;
+        rdfs:subClassOf         <http://cor.esipfed.org/ont/SWL_0000016> ;
+        oboInOwl:created_by     <http://orcid.org/0000-0003-4808-4736> ;
+        oboInOwl:creation_date  "2019-07-03T23:21:35Z"^^xsd:dateTime .
+
+oboInOwl:SynonymTypeProperty
+        a       owl:AnnotationProperty .
+
+<http://creativecommons.org/ns#SourceCode>
+        rdfs:comment  "source code (the\n\t\t    preferred form for making modifications) must be\n\t\t    provided when exercising some rights granted by\n\t\t    the license."@en-us ;
+        rdfs:label    "Source Code"@en-us .
+
+<https://opensource.org/licenses/BSD-2-Clause>
+        a                owl:Class ;
+        rdfs:label       "The 2-Clause BSD License"@en ;
+        rdfs:subClassOf  <http://cor.esipfed.org/ont/SWL_0000015> .
+
+oboInOwl:is_metadata_tag
+        a       owl:AnnotationProperty .
+
+<https://www.gnu.org/licenses/old-licenses/gpl-1.0.html>
+        a                       <http://cor.esipfed.org/ont/SWL_0000017> , owl:NamedIndividual ;
+        rdfs:label              "GNU General Public License, version 1"@en ;
+        oboInOwl:created_by     <http://orcid.org/0000-0003-4808-4736> ;
+        oboInOwl:creation_date  "2019-07-03T23:27:48Z"^^xsd:dateTime .
+
+<rdfs:comment>  a  owl:AnnotationProperty .
+
+<http://creativecommons.org/ns#Notice>
+        rdfs:comment  "copyright and license\n\t\t    notices be kept intact"@en-us ;
+        rdfs:label    "Notice"@en-us .
+
+oboInOwl:hasAlternativeId
+        a       owl:AnnotationProperty .
