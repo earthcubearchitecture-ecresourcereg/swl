@@ -3,9 +3,9 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 <..\index-en.html> a prov:Entity;
 	 dc:title "Software Licenses Ontology";
-	 prov:wasAttributedTo <https://orcid.org/0000-0003-4808-4736>;
-	 dc:creator <https://orcid.org/0000-0003-4808-4736>;
+	 prov:wasAttributedTo < https://orcid.org/0000-0003-4808-4736>;
+	 dc:creator < https://orcid.org/0000-0003-4808-4736>;
 	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
-	 prov:specializationOf <http://cor.esipfed.org/ont/earthcube/swo>;
-	 prov:wasGeneratedAt "2019-10-07";
+	 prov:specializationOf <http://cor.esipfed.org/ont/earthcube/swl>;
+	 prov:wasGeneratedAt "2019-10-15";
 .

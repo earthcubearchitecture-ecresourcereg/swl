@@ -1,20 +1,75 @@
-@prefix : <http://cor.esipfed.org/ont/earthcube/swo#> .
+@prefix : <http://cor.esipfed.org/ont/earthcube/swl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://cor.esipfed.org/ont/earthcube/swo> .
+@base <http://cor.esipfed.org/ont/earthcube/swl> .
 
-<http://cor.esipfed.org/ont/earthcube/swo> rdf:type owl:Ontology ;
+<http://cor.esipfed.org/ont/earthcube/swl> rdf:type owl:Ontology ;
+                                            <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contact> "Steve Richards" ;
+                                            <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contactRole> "Content Manager" ;
+                                            <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditCitation> "Duerr, R., 2019, \"Software Licenses Ontology\", ESIP Community Ontology Repository, available at http://cor.esipfed.org/ont/earthcube/swl" ;
+                                            <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditRequired> "yes" ;
+                                            <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/origVocManager> "None" ;
+                                            <http://mmisw.org/ont/mmi/20081020/ontologyMetadata/origVocVersionId> "0.9.1" ;
+                                            <http://omv.ontoware.org/2005/05/ontology#documentation> <https://earthcubearchitecture-ecresourcereg.github.io/swl/index-en.html> ;
+                                            <http://omv.ontoware.org/2005/05/ontology#hasContributor> "Ruth Duerr" ;
+                                            <http://omv.ontoware.org/2005/05/ontology#hasCreator> "Ruth Duerr" ;
+                                            <http://omv.ontoware.org/2005/05/ontology#keywords> "Software" ;
+                                            <http://omv.ontoware.org/2005/05/ontology#name> "Software Licenses Ontology" ;
                                             <http://www.geneontology.org/formats/oboInOwl#created_by> <https://orcid.org/0000-0003-4808-4736> ;
-                                            <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-03-06T00:50:17Z"@en ;
-                                            rdfs:comment "This mini-ontology contains instances for each version of the licenses that are commonly used in software projects, particularly open source software projects."@en ;
-                                            rdfs:label "Software Licenses Ontology"@en .
+                                            <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-03-06T00:50:17Z" ;
+                                            rdfs:comment "This mini-ontology contains instances for each version of the licenses that are commonly used in software projects, particularly open source software projects." ;
+                                            rdfs:label "Software Licenses Ontology" .
 
 #################################################################
 #    Annotation properties
 #################################################################
+
+###  http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contact
+<http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contact> rdf:type owl:AnnotationProperty .
+
+
+###  http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contactRole
+<http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contactRole> rdf:type owl:AnnotationProperty .
+
+
+###  http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditCitation
+<http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditCitation> rdf:type owl:AnnotationProperty .
+
+
+###  http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditRequired
+<http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditRequired> rdf:type owl:AnnotationProperty .
+
+
+###  http://mmisw.org/ont/mmi/20081020/ontologyMetadata/origVocManager
+<http://mmisw.org/ont/mmi/20081020/ontologyMetadata/origVocManager> rdf:type owl:AnnotationProperty .
+
+
+###  http://mmisw.org/ont/mmi/20081020/ontologyMetadata/origVocVersionId
+<http://mmisw.org/ont/mmi/20081020/ontologyMetadata/origVocVersionId> rdf:type owl:AnnotationProperty .
+
+
+###  http://omv.ontoware.org/2005/05/ontology#documentation
+<http://omv.ontoware.org/2005/05/ontology#documentation> rdf:type owl:AnnotationProperty .
+
+
+###  http://omv.ontoware.org/2005/05/ontology#hasContributor
+<http://omv.ontoware.org/2005/05/ontology#hasContributor> rdf:type owl:AnnotationProperty .
+
+
+###  http://omv.ontoware.org/2005/05/ontology#hasCreator
+<http://omv.ontoware.org/2005/05/ontology#hasCreator> rdf:type owl:AnnotationProperty .
+
+
+###  http://omv.ontoware.org/2005/05/ontology#keywords
+<http://omv.ontoware.org/2005/05/ontology#keywords> rdf:type owl:AnnotationProperty .
+
+
+###  http://omv.ontoware.org/2005/05/ontology#name
+<http://omv.ontoware.org/2005/05/ontology#name> rdf:type owl:AnnotationProperty .
+
 
 ###  http://purl.org/dc/elements/1.1/creator
 <http://purl.org/dc/elements/1.1/creator> rdf:type owl:AnnotationProperty .
@@ -190,6 +245,14 @@
                                          <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
                                          <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-07-03T23:21:17Z"^^xsd:dateTime ;
                                          rdfs:label "GNU Lesser General Public License (LGPL)"@en .
+
+
+###  http://cor.esipfed.org/ont/earthcube/swl/SWL_0000019
+<http://cor.esipfed.org/ont/earthcube/swl/SWL_0000019> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://cor.esipfed.org/ont/SWL_0000012> ;
+                                                       <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> ;
+                                                       <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-15T20:20:26Z"^^xsd:dateTime ;
+                                                       rdfs:label "Proprietary"@en .
 
 
 ###  http://purl.org/dc/terms/LicenseDocument

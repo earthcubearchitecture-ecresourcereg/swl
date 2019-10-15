@@ -2,18 +2,42 @@
   "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
   "header" : {
     "languages" : [ "en", "undefined" ],
-    "baseIris" : [ "http://www.apache.org/licenses", "https://www.gnu.org/licenses", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://purl.org/dc/terms", "http://www.w3.org/2001/XMLSchema", "https://opensource.org/licenses", "http://cor.esipfed.org/ont" ],
-    "iri" : "http://cor.esipfed.org/ont/earthcube/swo",
+    "baseIris" : [ "http://www.apache.org/licenses", "https://www.gnu.org/licenses", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://cor.esipfed.org/ont/earthcube/swl", "http://purl.org/dc/terms", "http://www.w3.org/2001/XMLSchema", "https://opensource.org/licenses", "http://cor.esipfed.org/ont" ],
+    "iri" : "http://cor.esipfed.org/ont/earthcube/swl",
     "labels" : {
-      "en" : "Software Licenses Ontology"
+      "undefined" : "Software Licenses Ontology"
     },
     "comments" : {
-      "en" : "This mini-ontology contains instances for each version of the licenses that are commonly used in software projects, particularly open source software projects."
+      "undefined" : "This mini-ontology contains instances for each version of the licenses that are commonly used in software projects, particularly open source software projects."
     },
     "other" : {
+      "hasCreator" : [ {
+        "identifier" : "hasCreator",
+        "language" : "undefined",
+        "value" : "Ruth Duerr",
+        "type" : "label"
+      } ],
+      "keywords" : [ {
+        "identifier" : "keywords",
+        "language" : "undefined",
+        "value" : "Software",
+        "type" : "label"
+      } ],
+      "documentation" : [ {
+        "identifier" : "documentation",
+        "language" : "undefined",
+        "value" : "https://earthcubearchitecture-ecresourcereg.github.io/swl/index-en.html",
+        "type" : "iri"
+      } ],
+      "creditCitation" : [ {
+        "identifier" : "creditCitation",
+        "language" : "undefined",
+        "value" : "Duerr, R., 2019, \"Software Licenses Ontology\", ESIP Community Ontology Repository, available at http://cor.esipfed.org/ont/earthcube/swl",
+        "type" : "label"
+      } ],
       "creation_date" : [ {
         "identifier" : "creation_date",
-        "language" : "en",
+        "language" : "undefined",
         "value" : "2019-03-06T00:50:17Z",
         "type" : "label"
       } ],
@@ -22,6 +46,48 @@
         "language" : "undefined",
         "value" : "https://orcid.org/0000-0003-4808-4736",
         "type" : "iri"
+      } ],
+      "creditRequired" : [ {
+        "identifier" : "creditRequired",
+        "language" : "undefined",
+        "value" : "yes",
+        "type" : "label"
+      } ],
+      "origVocManager" : [ {
+        "identifier" : "origVocManager",
+        "language" : "undefined",
+        "value" : "None",
+        "type" : "label"
+      } ],
+      "contact" : [ {
+        "identifier" : "contact",
+        "language" : "undefined",
+        "value" : "Steve Richards",
+        "type" : "label"
+      } ],
+      "name" : [ {
+        "identifier" : "name",
+        "language" : "undefined",
+        "value" : "Software Licenses Ontology",
+        "type" : "label"
+      } ],
+      "contactRole" : [ {
+        "identifier" : "contactRole",
+        "language" : "undefined",
+        "value" : "Content Manager",
+        "type" : "label"
+      } ],
+      "origVocVersionId" : [ {
+        "identifier" : "origVocVersionId",
+        "language" : "undefined",
+        "value" : "0.9.1",
+        "type" : "label"
+      } ],
+      "hasContributor" : [ {
+        "identifier" : "hasContributor",
+        "language" : "undefined",
+        "value" : "Ruth Duerr",
+        "type" : "label"
       } ]
     }
   },
@@ -39,19 +105,16 @@
     "id" : "6",
     "type" : "owl:Class"
   }, {
-    "id" : "9",
-    "type" : "owl:Class"
-  }, {
     "id" : "7",
     "type" : "owl:Class"
   }, {
     "id" : "10",
     "type" : "owl:Class"
   }, {
-    "id" : "18",
+    "id" : "8",
     "type" : "owl:Class"
   }, {
-    "id" : "17",
+    "id" : "18",
     "type" : "owl:Class"
   }, {
     "id" : "11",
@@ -60,19 +123,25 @@
     "id" : "19",
     "type" : "owl:Class"
   }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
     "id" : "3",
     "type" : "owl:Class"
   }, {
-    "id" : "8",
+    "id" : "9",
     "type" : "owl:Class"
   }, {
     "id" : "4",
     "type" : "owl:Class"
   }, {
-    "id" : "13",
+    "id" : "14",
     "type" : "owl:Class"
   }, {
-    "id" : "14",
+    "id" : "15",
     "type" : "owl:Class"
   }, {
     "id" : "2",
@@ -124,10 +193,35 @@
       "IRI-based" : "SWL_0000012",
       "en" : "Software Licenses"
     },
-    "subClasses" : [ "0", "3", "4", "5", "6", "7", "8" ],
+    "subClasses" : [ "0", "3", "4", "5", "6", "7", "8", "9" ],
     "attributes" : [ "external" ],
     "id" : "1",
     "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://cor.esipfed.org/ont/earthcube/swl/SWL_0000019",
+    "baseIri" : "http://cor.esipfed.org/ont/earthcube/swl",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-10-15T20:20:26Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SWL_0000019",
+      "en" : "Proprietary"
+    },
+    "attributes" : [ "external" ],
+    "id" : "5",
+    "superClasses" : [ "1" ]
   }, {
     "iri" : "http://cor.esipfed.org/ont/SWL_0000016",
     "baseIri" : "http://cor.esipfed.org/ont",
@@ -150,9 +244,9 @@
       "IRI-based" : "SWL_0000016",
       "en" : "GNU"
     },
-    "subClasses" : [ "9", "10", "11" ],
+    "subClasses" : [ "10", "11", "12" ],
     "attributes" : [ "external" ],
-    "id" : "5",
+    "id" : "6",
     "superClasses" : [ "1" ]
   }, {
     "iri" : "http://cor.esipfed.org/ont/SWL_0000015",
@@ -176,9 +270,9 @@
       "IRI-based" : "SWL_0000015",
       "en" : "BSD"
     },
-    "subClasses" : [ "13", "14" ],
+    "subClasses" : [ "14", "15" ],
     "attributes" : [ "external" ],
-    "id" : "6",
+    "id" : "7",
     "superClasses" : [ "1" ]
   }, {
     "iri" : "https://www.gnu.org/licenses/agpl-3.0.html",
@@ -203,8 +297,8 @@
       "en" : "GNU Affero General Public License (AGPL)"
     },
     "attributes" : [ "external" ],
-    "id" : "9",
-    "superClasses" : [ "5" ]
+    "id" : "10",
+    "superClasses" : [ "6" ]
   }, {
     "iri" : "http://cor.esipfed.org/ont/SWL_0000013",
     "baseIri" : "http://cor.esipfed.org/ont",
@@ -227,10 +321,34 @@
       "IRI-based" : "SWL_0000013",
       "en" : "Apache"
     },
-    "subClasses" : [ "17", "18", "19" ],
+    "subClasses" : [ "18", "19", "20" ],
     "attributes" : [ "external" ],
-    "id" : "7",
+    "id" : "8",
     "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.apache.org/licenses/LICENSE-1.1",
+    "baseIri" : "http://www.apache.org/licenses",
+    "instances" : 0,
+    "annotations" : {
+      "creation_date" : [ {
+        "identifier" : "creation_date",
+        "language" : "undefined",
+        "value" : "2019-07-03T22:21:22Z",
+        "type" : "label"
+      } ],
+      "created_by" : [ {
+        "identifier" : "created_by",
+        "language" : "undefined",
+        "value" : "http://orcid.org/0000-0003-4808-4736",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "LICENSE-1.1"
+    },
+    "attributes" : [ "external" ],
+    "id" : "18",
+    "superClasses" : [ "8" ]
   }, {
     "iri" : "http://cor.esipfed.org/ont/SWL_0000018",
     "baseIri" : "http://cor.esipfed.org/ont",
@@ -295,8 +413,8 @@
       }
     } ],
     "attributes" : [ "external" ],
-    "id" : "10",
-    "superClasses" : [ "5" ]
+    "id" : "11",
+    "superClasses" : [ "6" ]
   }, {
     "iri" : "http://www.apache.org/licenses/LICENSE-2.0",
     "baseIri" : "http://www.apache.org/licenses",
@@ -319,17 +437,17 @@
       "IRI-based" : "LICENSE-2.0"
     },
     "attributes" : [ "external" ],
-    "id" : "18",
-    "superClasses" : [ "7" ]
+    "id" : "19",
+    "superClasses" : [ "8" ]
   }, {
-    "iri" : "http://www.apache.org/licenses/LICENSE-1.1",
+    "iri" : "http://www.apache.org/licenses/LICENSE-1.0",
     "baseIri" : "http://www.apache.org/licenses",
     "instances" : 0,
     "annotations" : {
       "creation_date" : [ {
         "identifier" : "creation_date",
         "language" : "undefined",
-        "value" : "2019-07-03T22:21:22Z",
+        "value" : "2019-07-03T22:20:45Z",
         "type" : "label"
       } ],
       "created_by" : [ {
@@ -340,11 +458,11 @@
       } ]
     },
     "label" : {
-      "IRI-based" : "LICENSE-1.1"
+      "IRI-based" : "LICENSE-1.0"
     },
     "attributes" : [ "external" ],
-    "id" : "17",
-    "superClasses" : [ "7" ]
+    "id" : "20",
+    "superClasses" : [ "8" ]
   }, {
     "iri" : "http://cor.esipfed.org/ont/SWL_0000017",
     "baseIri" : "http://cor.esipfed.org/ont",
@@ -432,32 +550,8 @@
       }
     } ],
     "attributes" : [ "external" ],
-    "id" : "11",
-    "superClasses" : [ "5" ]
-  }, {
-    "iri" : "http://www.apache.org/licenses/LICENSE-1.0",
-    "baseIri" : "http://www.apache.org/licenses",
-    "instances" : 0,
-    "annotations" : {
-      "creation_date" : [ {
-        "identifier" : "creation_date",
-        "language" : "undefined",
-        "value" : "2019-07-03T22:20:45Z",
-        "type" : "label"
-      } ],
-      "created_by" : [ {
-        "identifier" : "created_by",
-        "language" : "undefined",
-        "value" : "http://orcid.org/0000-0003-4808-4736",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "LICENSE-1.0"
-    },
-    "attributes" : [ "external" ],
-    "id" : "19",
-    "superClasses" : [ "7" ]
+    "id" : "12",
+    "superClasses" : [ "6" ]
   }, {
     "iri" : "https://opensource.org/licenses/CDDL-1.0",
     "baseIri" : "https://opensource.org/licenses",
@@ -506,7 +600,7 @@
       "en" : "Mozilla Public License 2.0 (MPL-2.0)"
     },
     "attributes" : [ "external" ],
-    "id" : "8",
+    "id" : "9",
     "superClasses" : [ "1" ]
   }, {
     "iri" : "https://opensource.org/licenses/EPL-2.0",
@@ -542,8 +636,8 @@
       "en" : "The 2-Clause BSD License"
     },
     "attributes" : [ "external" ],
-    "id" : "13",
-    "superClasses" : [ "6" ]
+    "id" : "14",
+    "superClasses" : [ "7" ]
   }, {
     "iri" : "https://opensource.org/licenses/BSD-3-Clause",
     "baseIri" : "https://opensource.org/licenses",
@@ -567,8 +661,8 @@
       "en" : "The 3-Clause BSD License"
     },
     "attributes" : [ "external" ],
-    "id" : "14",
-    "superClasses" : [ "6" ]
+    "id" : "15",
+    "superClasses" : [ "7" ]
   }, {
     "iri" : "http://purl.org/dc/terms/LicenseDocument",
     "baseIri" : "http://purl.org/dc/terms",
@@ -595,16 +689,13 @@
     "id" : "2"
   } ],
   "property" : [ {
-    "id" : "12",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "15",
+    "id" : "13",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "16",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "20",
+    "id" : "17",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "21",
@@ -642,86 +733,97 @@
   }, {
     "id" : "32",
     "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:SubClassOf"
   } ],
   "propertyAttribute" : [ {
     "range" : "1",
     "domain" : "4",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "12"
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "13"
   }, {
     "range" : "1",
     "domain" : "5",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "15"
-  }, {
-    "range" : "1",
-    "domain" : "6",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "16"
   }, {
     "range" : "1",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "17"
+  }, {
+    "range" : "1",
     "domain" : "7",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "20"
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "21"
   }, {
     "range" : "1",
     "domain" : "8",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "21"
-  }, {
-    "range" : "5",
-    "domain" : "9",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "22"
   }, {
-    "range" : "5",
-    "domain" : "10",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "1",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "23"
   }, {
-    "range" : "5",
-    "domain" : "11",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "6",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "24"
   }, {
-    "range" : "1",
-    "domain" : "0",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "6",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "25"
   }, {
     "range" : "1",
-    "domain" : "3",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "0",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "26"
   }, {
-    "range" : "7",
-    "domain" : "19",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "1",
+    "domain" : "3",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "27"
   }, {
-    "range" : "7",
-    "domain" : "18",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "8",
+    "domain" : "19",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "28"
+  }, {
+    "range" : "8",
+    "domain" : "18",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "29"
   }, {
     "range" : "2",
     "domain" : "1",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "29"
-  }, {
-    "range" : "6",
-    "domain" : "13",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "30"
   }, {
-    "range" : "7",
-    "domain" : "17",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "8",
+    "domain" : "20",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "31"
   }, {
     "range" : "6",
-    "domain" : "14",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "32"
+  }, {
+    "range" : "7",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "33"
+  }, {
+    "range" : "7",
+    "domain" : "14",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "34"
   } ]
 }

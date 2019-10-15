@@ -101,22 +101,69 @@
     "@id" : "http://cor.esipfed.org/ont/SWL_0000016"
   } ]
 }, {
-  "@id" : "http://cor.esipfed.org/ont/earthcube/swo",
+  "@id" : "http://cor.esipfed.org/ont/earthcube/swl",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contact" : [ {
+    "@value" : "Steve Richards"
+  } ],
+  "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contactRole" : [ {
+    "@value" : "Content Manager"
+  } ],
+  "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditCitation" : [ {
+    "@value" : "Duerr, R., 2019, \"Software Licenses Ontology\", ESIP Community Ontology Repository, available at http://cor.esipfed.org/ont/earthcube/swl"
+  } ],
+  "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditRequired" : [ {
+    "@value" : "yes"
+  } ],
+  "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/origVocManager" : [ {
+    "@value" : "None"
+  } ],
+  "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/origVocVersionId" : [ {
+    "@value" : "0.9.1"
+  } ],
+  "http://omv.ontoware.org/2005/05/ontology#documentation" : [ {
+    "@id" : "https://earthcubearchitecture-ecresourcereg.github.io/swl/index-en.html"
+  } ],
+  "http://omv.ontoware.org/2005/05/ontology#hasContributor" : [ {
+    "@value" : "Ruth Duerr"
+  } ],
+  "http://omv.ontoware.org/2005/05/ontology#hasCreator" : [ {
+    "@value" : "Ruth Duerr"
+  } ],
+  "http://omv.ontoware.org/2005/05/ontology#keywords" : [ {
+    "@value" : "Software"
+  } ],
+  "http://omv.ontoware.org/2005/05/ontology#name" : [ {
+    "@value" : "Software Licenses Ontology"
+  } ],
   "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
     "@id" : "https://orcid.org/0000-0003-4808-4736"
   } ],
   "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
-    "@language" : "en",
     "@value" : "2019-03-06T00:50:17Z"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
     "@value" : "This mini-ontology contains instances for each version of the licenses that are commonly used in software projects, particularly open source software projects."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
     "@value" : "Software Licenses Ontology"
+  } ]
+}, {
+  "@id" : "http://cor.esipfed.org/ont/earthcube/swl/SWL_0000019",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@id" : "http://orcid.org/0000-0003-4808-4736"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2019-10-15T20:20:26Z"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Proprietary"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cor.esipfed.org/ont/SWL_0000012"
   } ]
 }, {
   "@id" : "http://creativecommons.org/ns#Attribution",
@@ -238,6 +285,39 @@
     "@language" : "en-us",
     "@value" : "Source Code"
   } ]
+}, {
+  "@id" : "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contactRole",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditCitation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditRequired",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/origVocManager",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://mmisw.org/ont/mmi/20081020/ontologyMetadata/origVocVersionId",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://omv.ontoware.org/2005/05/ontology#documentation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://omv.ontoware.org/2005/05/ontology#hasContributor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://omv.ontoware.org/2005/05/ontology#hasCreator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://omv.ontoware.org/2005/05/ontology#keywords",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://omv.ontoware.org/2005/05/ontology#name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/elements/1.1/creator",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]

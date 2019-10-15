@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://cor.esipfed.org/ont/earthcube/swo#"
-     xml:base="http://cor.esipfed.org/ont/earthcube/swo"
+<rdf:RDF xmlns="http://cor.esipfed.org/ont/earthcube/swl#"
+     xml:base="http://cor.esipfed.org/ont/earthcube/swl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -10,12 +10,25 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:rdfs1="rdfs:"
      xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="http://cor.esipfed.org/ont/earthcube/swo">
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:ontology="http://omv.ontoware.org/2005/05/ontology#"
+     xmlns:ontologyMetadata="http://mmisw.org/ont/mmi/20081020/ontologyMetadata/">
+    <owl:Ontology rdf:about="http://cor.esipfed.org/ont/earthcube/swl">
+        <ontologyMetadata:contact>Steve Richards</ontologyMetadata:contact>
+        <ontologyMetadata:contactRole>Content Manager</ontologyMetadata:contactRole>
+        <ontologyMetadata:creditCitation>Duerr, R., 2019, &quot;Software Licenses Ontology&quot;, ESIP Community Ontology Repository, available at http://cor.esipfed.org/ont/earthcube/swl</ontologyMetadata:creditCitation>
+        <ontologyMetadata:creditRequired>yes</ontologyMetadata:creditRequired>
+        <ontologyMetadata:origVocManager>None</ontologyMetadata:origVocManager>
+        <ontologyMetadata:origVocVersionId>0.9.1</ontologyMetadata:origVocVersionId>
+        <ontology:documentation rdf:resource="https://earthcubearchitecture-ecresourcereg.github.io/swl/index-en.html"/>
+        <ontology:hasContributor>Ruth Duerr</ontology:hasContributor>
+        <ontology:hasCreator>Ruth Duerr</ontology:hasCreator>
+        <ontology:keywords>Software</ontology:keywords>
+        <ontology:name>Software Licenses Ontology</ontology:name>
         <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0003-4808-4736"/>
-        <oboInOwl:creation_date xml:lang="en">2019-03-06T00:50:17Z</oboInOwl:creation_date>
-        <rdfs:comment xml:lang="en">This mini-ontology contains instances for each version of the licenses that are commonly used in software projects, particularly open source software projects.</rdfs:comment>
-        <rdfs:label xml:lang="en">Software Licenses Ontology</rdfs:label>
+        <oboInOwl:creation_date>2019-03-06T00:50:17Z</oboInOwl:creation_date>
+        <rdfs:comment>This mini-ontology contains instances for each version of the licenses that are commonly used in software projects, particularly open source software projects.</rdfs:comment>
+        <rdfs:label>Software Licenses Ontology</rdfs:label>
     </owl:Ontology>
     
 
@@ -29,6 +42,83 @@
      -->
 
 
+    
+
+
+    <!-- http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contact -->
+
+
+    <owl:AnnotationProperty rdf:about="http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contact"/>
+    
+
+
+    <!-- http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contactRole -->
+
+
+    <owl:AnnotationProperty rdf:about="http://mmisw.org/ont/mmi/20081020/ontologyMetadata/contactRole"/>
+    
+
+
+    <!-- http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditCitation -->
+
+
+    <owl:AnnotationProperty rdf:about="http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditCitation"/>
+    
+
+
+    <!-- http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditRequired -->
+
+
+    <owl:AnnotationProperty rdf:about="http://mmisw.org/ont/mmi/20081020/ontologyMetadata/creditRequired"/>
+    
+
+
+    <!-- http://mmisw.org/ont/mmi/20081020/ontologyMetadata/origVocManager -->
+
+
+    <owl:AnnotationProperty rdf:about="http://mmisw.org/ont/mmi/20081020/ontologyMetadata/origVocManager"/>
+    
+
+
+    <!-- http://mmisw.org/ont/mmi/20081020/ontologyMetadata/origVocVersionId -->
+
+
+    <owl:AnnotationProperty rdf:about="http://mmisw.org/ont/mmi/20081020/ontologyMetadata/origVocVersionId"/>
+    
+
+
+    <!-- http://omv.ontoware.org/2005/05/ontology#documentation -->
+
+
+    <owl:AnnotationProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#documentation"/>
+    
+
+
+    <!-- http://omv.ontoware.org/2005/05/ontology#hasContributor -->
+
+
+    <owl:AnnotationProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#hasContributor"/>
+    
+
+
+    <!-- http://omv.ontoware.org/2005/05/ontology#hasCreator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#hasCreator"/>
+    
+
+
+    <!-- http://omv.ontoware.org/2005/05/ontology#keywords -->
+
+
+    <owl:AnnotationProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#keywords"/>
+    
+
+
+    <!-- http://omv.ontoware.org/2005/05/ontology#name -->
+
+
+    <owl:AnnotationProperty rdf:about="http://omv.ontoware.org/2005/05/ontology#name"/>
     
 
 
@@ -329,6 +419,18 @@
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-03T23:21:17Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">GNU Lesser General Public License (LGPL)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/swl/SWL_0000019 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/swl/SWL_0000019">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/SWL_0000012"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-15T20:20:26Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Proprietary</rdfs:label>
     </owl:Class>
     
 
